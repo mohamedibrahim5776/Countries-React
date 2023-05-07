@@ -1,0 +1,9 @@
+:root {
+  --main-color:#A82C48;
+}
+li {
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+}

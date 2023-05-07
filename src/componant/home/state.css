@@ -1,0 +1,17 @@
+.states {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--main-color);
+}
+.container .state {
+    width: 25%;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container .state .label {
+    font-size: large;
+    font-weight: lighter;
+}

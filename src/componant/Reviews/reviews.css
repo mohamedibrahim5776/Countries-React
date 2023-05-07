@@ -1,0 +1,43 @@
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--main-color);
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+}
+.review h2 {
+    margin: 100px 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.carousel {
+    background-color: white;
+    display: flex;
+    color: black !important;
+    flex-direction: column;
+    width: 100%;
+}
+.carousel-item p {
+    font-size: 30px;
+    margin: 10px 100px ;
+    text-align: center;
+    color: black;
+} 
+.carousel-item h2 {
+    text-align: center;
+    color: var(--main-color);
+}
+.carousel img {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 20px auto;
+}
+.carousel-indicators button {
+    background-color: rgb(191, 191, 191) !important;
+}
+.carousel-indicators button.active {
+    background-color: black !important;
+}
